@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="andrea">
+	<title>Welcome</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Caveat+Brush">
+</head>
+<body>
+	<h1>Welcome!</h1>
+	<div>
+	<form>
+		<fieldset>
+			<legend>Personal Details</legend>
+			<label for="fullname">Full Name:</label>
+			<input type="text" id="fullname" required>
+			<label for="dob">Date of Birth:</label>
+			<input type="date" id="dob" required>
+			<br><br>
+			<label for="myemail">E-mail ID:</label>
+			<input type="email" id="myemail" required>
+			<label for="mob">Mobile:</label>
+			<input type="tel" id="mob" pattern="[0-9]{10}" required>
+			<br>
+			<input type="submit" name="Submit">
+		</fieldset>
+		<fieldset id="choice">
+			<legend>Your Choices</legend>
+			<label for="teams">Team:</label>
+			<!-- DATALIST DEMO -->
+			<input list="team" name="team" id="teams">
+			<datalist id="team">
+				<option value="Alfa Romeo"></option>
+				<option value="AlphaTauri"></option>
+				<option value="Alpine"></option>
+				<option value="Aston Martin"></option>
+				<option value="Ferrari"></option>
+				<option value="Haas"></option>
+				<option value="McLaren"></option>
+				<option value="Mercedes"></option>
+				<option value="Red Bull Racing"></option>
+				<option value="Williams"></option>
+			</datalist>
+			<input type="submit" name="Submit">
+		</fieldset>
+	</form>
+	</div>
+	<!-- PSEUDO-CLASS SELECTOR PRACTICE -->
+	<br><br><br>
+<footer>
+	<p>	Quick Links: 
+		<ul>
+			<li><a href="https://www.formula1.com/" hreflang="en" title="Official F1 Site" target="_blank"><span class="link-text">Official Site</span></a></li>
+			<li><a href="https://www.espn.in/f1/" hreflang="en" title="ESPN's F1 Section" target="_blank"><span class="link-text">ESPN Site(IN)</span></a></li>
+			<li><a href="https://www.formula1.com/en/racing/2023.html" hreflang="en" title="2023 F1 Schedule" target="_blank"><span class="link-text">2023 Schedule</span></a></li>
+		</ul>
+	</p>
+	<div id="copyright">
+	<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!">
+    </a>  
+    <br>
+    &copy; tinkerbelle 2023
+	</div>
+</footer>
+</body>
+</html>

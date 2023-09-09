@@ -1,0 +1,53 @@
+body {
+	background-color: #fa415a;
+}
+div {
+	margin: auto;
+}
+h1 {
+	text-align: center;
+	font-family: 'Caveat Brush', garamond, serif;
+}
+fieldset {
+	width: 40%;
+	background-color: whitesmoke;
+	margin: auto;
+	border: 5px black;
+}
+legend {
+	text-align: center;
+	font-weight: bold;
+}
+footer li {
+	list-style: none;
+}
+li a:link {
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Audiowide', serif;
+	color: black;
+	background-color: white;
+	border: 1px solid black;
+	display: block;
+	width: 200px;
+	margin-bottom: 2px;
+	text-align: center;
+}
+li a:hover, li a:active {
+	text-decoration: none;
+	font-size: 30px;
+	color: white;
+	background-color: black;
+	border: 1px solid whitesmoke;
+	display: block;
+	width: 200px;
+	margin-bottom: 2px;
+	text-align: center;
+}
+#choice {
+	text-align: center;
+}
+#copyright {
+	font-size: 11px;
+	text-align: center;
+}
